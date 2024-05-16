@@ -1,0 +1,15 @@
+#TODO alter these settings to match your application
+development:
+  ga_id: ''
+  ga_campaign_name: 'CLIENT_NAME'
+  ga_campaign_source: 'F8Application'
+
+test:
+  ga_id: ''
+  ga_campaign_name: 'CLIENT_NAME'
+  ga_campaign_source: 'F8Application'
+
+production:
+  ga_id: ''
+  ga_campaign_name: 'CLIENT_NAME'
+  ga_campaign_source: 'F8Application'

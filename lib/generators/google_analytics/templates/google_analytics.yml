@@ -1,0 +1,15 @@
+
+defaults: &defaults
+  ga_id: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
+  ga_domain: <%= ENV['GOOGLE_ANALYTICS_DOMAIN'] || 'auto' %>
+  ga_campaign_name: 'CLIENT_NAME'
+  ga_campaign_source: 'F8Application'
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
